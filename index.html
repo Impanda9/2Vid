@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.GIF">
+    <title>Video tst</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="video-description">Watch the video and describe the operation that takes place</h1>
+
+        <div class="video-container">
+            <video id="vid1" controls onended="showButtons()">
+                <source src="\\itglo.net\public\EMEA\BE-KI\DataShares\Share KBT Helpdesk\MOLDOVA\MOLDOVA HELPDESK\Admin Tool\ICS\sample.mp4">
+            </video>
+        </div>
+
+        <div class="buttons-container" id="buttonsContainer">
+            <button onclick="editAnswer()">Edit answer</button>
+            <button onclick="watchAgain()">Watch again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

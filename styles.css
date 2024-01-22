@@ -1,0 +1,61 @@
+body {
+    background-image: url(ktn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #050101;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #85828293;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-description {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    width: 50%;
+    padding-bottom: 50.25%;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #050101;
+    border-radius: 5px;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+}
+
+.buttons-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons-container button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.buttons-container button:hover {
+    background-color: #95ff0a9f;
+    color: #050101;
+}
