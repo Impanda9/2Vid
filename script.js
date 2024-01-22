@@ -3,7 +3,7 @@ function showButtons() {
 }
 
 function editAnswer() {
-    window.location.href = "3.ViAnswr.html";
+    window.location.href = 'https://impanda9.github.io/3VidA/';
 }
 
 function watchAgain() {
